@@ -1,5 +1,5 @@
 # DevOps_Resume_Deploy
-This project idea comes from site here: https://cloudresumechallenge.dev/instructions/  , however, I implemented the solutions using Azure services instead. I built a serverless static resume website with a visitor counter, serverless service to store the visitor’s count (Azure Cosmos DB), a serverless service to retrieve and update the visitor’s count from our store(Azure Functions), a serverless service to host our static resume website (Azure Storage) and an additional service to cache and make static website load faster (Azure CDN).
+This project idea comes from this site here: https://cloudresumechallenge.dev/instructions/  , however, I implemented the solutions using Azure services instead. I built a serverless static resume website with a visitor counter, serverless service to store the visitor’s count (Azure Cosmos DB), a serverless service to retrieve and update the visitor’s count from our store(Azure Functions), a serverless service to host our static resume website (Azure Storage) and an additional service to cache and make static website load faster (Azure CDN).
 
 Goal:
 - Host resume on Azure storage and use Azure CDN for caching and custom domain change, Cosmo DB to store visitor's count and Function App to retrieve the count. 
